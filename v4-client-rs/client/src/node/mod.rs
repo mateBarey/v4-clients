@@ -2,7 +2,7 @@ mod builder;
 mod client;
 mod config;
 mod fee;
-mod order;
+pub mod order;
 /// Account number sequencing mechanisms
 pub mod sequencer;
 mod types;
