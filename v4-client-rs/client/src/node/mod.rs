@@ -20,4 +20,3 @@ pub use types::ChainId;
 pub use utils::BigIntExt;
 pub use wallet::{Account, PublicAccount, Wallet};
 
-pub use dydx_proto::dydxprotocol; // So you can use `dydx::dydxprotocol::clob::Order` consistently
