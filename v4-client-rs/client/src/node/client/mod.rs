@@ -146,7 +146,7 @@ impl Routes {
 /// Node (validator) client.
 ///
 /// Serves to manage [orders](OrderBuilder) and funds, query transactions.
-#[derive(Deref, DerefMut)]
+#[derive(Deref, DerefMut,Clone,Debug)]
 pub struct NodeClient {
     config: NodeConfig,
     /// Transactions builder.
