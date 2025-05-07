@@ -9,7 +9,6 @@ mod utils;
 mod wallet;
 
 // Bring in the proto definitions from the local submodule (forked version)
-pub mod dydx_proto;
 
 // Explicit re-exports to simplify usage downstream
 pub use builder::TxBuilder;
